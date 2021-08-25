@@ -11,7 +11,28 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
     
+  <!----- Your web app's Firebase configuration-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
   // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBGlJOmAQfs7Eh5sHmHuDqitILkbLq1Px4",    
+    authDomain: "project-firebase-databas-1446e.firebaseapp.com",
+    databaseURL: "https://project-firebase-databas-1446e-default-rtdb.firebaseio.com",
+    projectId: "project-firebase-databas-1446e",
+    storageBucket: "project-firebase-databas-1446e.appspot.com",
+    messagingSenderId: "563800556089",
+    appId: "1:563800556089:web:f3fd8501ddbc263f6203e8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
   // Initialize Firebase
 
